@@ -29,6 +29,8 @@ sunxi_pinctrl_init_with_variant(struct platform_device *pdev,
 		name = "sun20i_d1";
 	if (strcmp(name, "h6") == 0)
 		name = "sun50i_h6";
+	if (strcmp(name, "h616") == 0)
+		name = "sun50i_h616";
 
 	if (strcmp(name, "sun8i_v3s") == 0 && variant == PINCTRL_SUN8I_V3)
 		name = "sun8i_v3";

@@ -9,7 +9,8 @@ SRCS=	sxipins.c \
 	pinctrl-sun20i-d1.c \
 	pinctrl-sun50i-a64.c pinctrl-sun50i-a64-r.c\
 	pinctrl-sun50i-h5.c \
-	pinctrl-sun50i-h6.c pinctrl-sun50i-h6-r.c
+	pinctrl-sun50i-h6.c pinctrl-sun50i-h6-r.c \
+	pinctrl-sun50i-h616.c pinctrl-sun50i-h616-r.c
 
 CPPFLAGS+= -I${.CURDIR}
 
